@@ -1642,6 +1642,10 @@
                  var cur = jQuery(this);
                  if (this.href.indexOf('#') === -1) {
                      var href = jQuery(this).attr('href');
+                     $(this).on('click', function () {
+                        // Close the menu when a menu item is clicked
+                        $('.de-flex-col header-col-mid').removeClass('show');
+                    });
 					
                  }
              });
@@ -1718,3 +1722,4 @@
     });
     
  })(jQuery);
+

@@ -191,6 +191,10 @@ h2 {
   height: auto; 
 }
 
+.item img, .logo-main{
+  border-radius: 50%;
+}
+
 
 
 /* Media query for first div */
